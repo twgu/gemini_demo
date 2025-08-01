@@ -8,3 +8,9 @@ springdoc:
     tags-sorter: alpha # @Tag 알파벳 오름차순 정렬
     operations-sorter: alpha # @Operation 알파벳 오름차순 정렬
     doc-expansion: none # 페이지 최초 접근 시 최상위 항목만 표시
+
+# JWT
+jwt:
+  secret: 'qwviuhenhfauisdhvfniusdhfvniusahfviuwehviuahefvuiawhevnfuiahenviuhiu'
+  access-token-validity-in-seconds: 3600 # 1시간 (초)
+  refresh-token-validity-in-seconds: 604800 # 7일 (초)

@@ -57,8 +57,8 @@ public class DemoUtil {
 
     public static long getUnixNow(TimeUnit type) {
         return switch (type) {
-            case SECOND -> Instant.now().getEpochSecond(); // 10자리 (초)
-            case MILLIS -> Instant.now().toEpochMilli(); // 13자리 (밀리초)
+            case SECOND -> Instant.now().getEpochSecond(); // 초 (10자리)
+            case MILLIS -> Instant.now().toEpochMilli(); // 밀리초 (13자리)
         };
     }
 
